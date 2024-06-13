@@ -2,9 +2,11 @@
   "name": "rvcore",
   "version": "0.1.0",
   "description": "Functions and utils for RentVisie apps",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "npm run build"
   },
   "author": "RV",
   "license": "ISC",
