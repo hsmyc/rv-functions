@@ -1,11 +1,12 @@
 {
   "name": "rvcore",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Functions and utils for RentVisie apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
     "prepare": "npm run build"
   },
   "author": "RV",

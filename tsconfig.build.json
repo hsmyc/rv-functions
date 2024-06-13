@@ -5,7 +5,7 @@
     "skipLibCheck": true,
     "strict": true,
     "esModuleInterop": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "moduleResolution": "node",
